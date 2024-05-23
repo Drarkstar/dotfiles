@@ -1,0 +1,33 @@
+# Monitor resolution
+resolution
+
+# Enable touchpad
+touchpad
+
+# Udiskie
+# udiskie &
+
+# Restore wallpaper
+# nitrogen --restore &
+
+# Random background
+nitrogen --random --set-zoom-fill ~/backgrounds/
+
+# Screen temperature
+# redshift -P -O 2700 &
+
+# Avoid screen to turn off after a certain time
+xset s off &
+
+# Enable numlock
+# numlockx
+
+# Start flameshot
+# flameshot &
+
+# Effects
+picom --config ~/.config/picom/picom.conf &
+
+# Remove cache
+rm ~/.cache/wofi-drun
+rm ~/.cache/rofi3.druncache
